@@ -1,0 +1,20 @@
+.image-container { 
+  transition: all .3s ease;
+  position: relative;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #f21432 inset;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bounding-box:hover {
+  box-shadow:0 0 0 3px black inset;
+}

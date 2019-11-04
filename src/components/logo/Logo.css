@@ -1,3 +1,9 @@
+.logo {
+  top:0;
+  left: 0;
+  display: block;
+  float: left;
+}
 .skull {
   width: 90px;
   padding:30px

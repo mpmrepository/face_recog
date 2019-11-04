@@ -24,3 +24,13 @@ button {
   bottom:0;
   z-index: -1;
 }
+
+header {
+  position: relative;
+  overflow: hidden;
+  padding-bottom:1rem;
+}
+header nav {
+  position: absolute;
+  right:0;
+}

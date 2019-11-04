@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/facerecog/static/css/main.bcdc52f6.chunk.css",
+    "main.js": "/facerecog/static/js/main.9e9722fe.chunk.js",
+    "main.js.map": "/facerecog/static/js/main.9e9722fe.chunk.js.map",
+    "runtime-main.js": "/facerecog/static/js/runtime-main.90d67e58.js",
+    "runtime-main.js.map": "/facerecog/static/js/runtime-main.90d67e58.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/facerecog/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.34b56b8a.chunk.js": "/facerecog/static/js/2.34b56b8a.chunk.js",
+    "static/js/2.34b56b8a.chunk.js.map": "/facerecog/static/js/2.34b56b8a.chunk.js.map",
+    "index.html": "/facerecog/index.html",
+    "precache-manifest.cf1d3fb4221b7a395bbb2730e3155227.js": "/facerecog/precache-manifest.cf1d3fb4221b7a395bbb2730e3155227.js",
+    "service-worker.js": "/facerecog/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/facerecog/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.bcdc52f6.chunk.css.map": "/facerecog/static/css/main.bcdc52f6.chunk.css.map",
+    "static/media/logo.svg": "/facerecog/static/media/logo.504f8137.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90d67e58.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.34b56b8a.chunk.js",
+    "static/css/main.bcdc52f6.chunk.css",
+    "static/js/main.9e9722fe.chunk.js"
+  ]
+}

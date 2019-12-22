@@ -1,7 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face {
+  font-family: BAB;
+  src: url(https://common.static.burberry.com/fonts/v5/BBY-Styrene/BurberryStyreneB-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-family: BAB;
+  src: url(https://common.static.burberry.com/fonts/v5/BBY-Styrene/BurberryStyreneB-Medium.woff) format("woff");
+  font-weight: 500
+}
+
+@font-face {
+  font-family: BAB;
+  src: url(https://common.static.burberry.com/fonts/v5/BBY-Styrene/BurberryStyreneB-Medium.woff) format("woff");
+  font-weight: 700
+}
+
+@font-face {
+  font-family: STHeitiSC-Medium;
+  src: local("STHeitiSC-Medium");
+  font-weight: 500
+}
+
+@font-face {
+  font-family: STHeitiSC-Light;
+  src: local("STHeitiSC-Light");
+  font-weight: 400
+}
+
+
 body {
   margin: 0;
-  font-family: "Roboto", "Oxygen",
+  font-family: BAB, "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -9,28 +40,97 @@ body {
 }
 
 code {
-  font-family:  "Courier New",
+  font-family: "Courier New",
     monospace;
 }
 
 button {
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .particles {
-  position:fixed;
+  position: fixed;
   top: 0;
-  left:0;
-  right:0;
-  bottom:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: -1;
 }
 
 header {
   position: relative;
   overflow: hidden;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
 }
+
 header nav {
   position: absolute;
-  right:0;
+  right: 0;
+}
+
+/* Input styling */
+
+
+.copy {
+  font-size: 14px;
+  line-height: 1.3;
+}
+.block-12 {
+  margin-bottom:12px;
+}
+.block-18 {
+  margin-bottom:18px;
+}
+.block-24 {
+  margin-bottom:24px;
+}
+.block-28 {
+  margin-bottom:28px;
+}
+.block-32 {
+  margin-bottom:32px;
+}
+label {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 12px;
+  line-height: 1.3;
+  font-weight: 500;
+  display: block;
+  cursor: default;
+  color: rgba( 0, 0, 0, .8 );
+}
+
+input.text-box {
+  padding: 12px 18px;
+  background-color: #fff;
+  width: 100%;
+  line-height: 1.25;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-weight: 400;
+  border-width: 2px;
+  border-style: solid;
+  overflow: visible;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.form-box {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  max-width: 320px;
+  border-width: .125rem;
+  border-radius: 0;
+  border-color: #000;
+  width:80%;
+  border-style: solid;
+  border-width: 2px;
 }
